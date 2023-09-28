@@ -32,9 +32,12 @@ header {
   text-align: center;
   color: #fff;
   background-color: #c3c7f3;
-  padding: 10px;
+  padding: 10px 1rem;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sign-up form h2 {
+  padding: 1rem;
 }
 .sign-up input {
   border: none;
@@ -52,12 +55,23 @@ header {
   flex-direction: column;
   gap: 10px;
 }
+.gender {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.male,
+.female {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .personal {
   display: flex;
   padding: 1rem;
 }
 .age input {
-  width: 20%;
+  width: 30%;
 }
 .agree {
   font-size: 12px;
@@ -74,4 +88,13 @@ header {
   font-weight: 600;
   font-size: 1rem;
   color: #fff;
+  margin-top: 1rem;
+}
+
+.sign-in {
+  padding: 1rem 0;
+  font-size: 12px;
+}
+#signIn {
+  cursor: pointer;
 }
